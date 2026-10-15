@@ -1,51 +1,48 @@
-# MDRG UI Hider
+# 👁️ MDRG UI Hider
 
-A lightweight open-source MelonLoader mod for **My Dystopian Robot Girlfriend** that allows players to instantly toggle the visibility of the game's user interface for clean screenshots.
+**Real-time user interface suppression for clean in-game screenshots**  
+*Мгновенное скрытие интерфейса в реальном времени для создания чистых скриншотов*
 
-*Лёгкий open-source мод на базе MelonLoader для My Dystopian Robot Girlfriend, позволяющий мгновенно переключать видимость интерфейса игры для создания чистых скриншотов.*
-
----
-
-## ⚙️ Features / Возможности
-
-* **Instant Suppression:** Toggles canvas visibility with a single keypress.
-* **Smart Filtering:** Uses built-in white/blacklists to target dialogue, popups, and HUD elements while preserving critical background layers.
-* **Low-Level Execution:** Utilizes unmanaged Unity Input reflection to bypass standard runtime input locks.
-* **Performance Optimized:** Canvas caching and state swapping execute strictly in a single frame to ensure zero FPS drops.
+**Author / Автор:** Paul.Epifancev ( #warlockforbugs )  
+**Discord:** anon.jun  
+**Version / Версия:** 1.0.0 (Stable Release / Стабильный релиз)  
+**Compatibility / Совместимость:** PC (MelonLoader required / требуется MelonLoader)  
+**Hotkey / Горячая клавиша:** Minus (`-`) on the main keyboard / Минус (`-`) на основной клавиатуре  
 
 ---
 
-## ⌨️ Controls / Управление
+## 📸 Screenshots / Скриншоты
 
-* **Minus key (`-`)** on the main keyboard to show/hide the UI.
-* *Клавиша **Минус (`-`)** на основной клавиатуре для скрытия/показа интерфейса.*
-
----
-
-## 🚀 Installation / Установка
-
-1. Make sure you have **MelonLoader** (v0.7.3 or compatible) installed.
-2. Download the latest `UI_Hider.dll` from the Releases section.
-3. Place the `.dll` file into your game's `Mods/` directory.
-4. Launch the game.
+<p align="center">
+  <img src="1.png" width="31%" alt="MDRG UI Hider Capture 1" />
+  <img src="2.png" width="31%" alt="MDRG UI Hider Capture 2" />
+  <img src="3.png" width="31%" alt="MDRG UI Hider Capture 3" />
+</p>
 
 ---
 
-## 🛠️ Technical Details / Техническая информация
+## 📖 About / О проекте
 
-* **Compatibility:** PC (Unity 6 / IL2CPP runtime).
-* **Execution:** Dynamically scans volatile VRAM every time the interface pipeline state is flipped using `Resources.FindObjectsOfTypeAll`.
-* **Debounce Time:** Enforced `0.4s` safety lock to prevent input stutter.
+Полная документация и описание проекта доступны в исходном репозитории.
 
 ---
 
-## 👤 Author / Автор
+## ✨ Key Features / Ключевые возможности
 
-* Created by **Paul.Epifancev** (#warlockforbugs)
-* **Discord:** anon.jun
+* Моментальное переключение видимости элементов интерфейса.
+* Нулевое влияние на производительность (FPS/CPU).
 
 ---
 
-## 📄 License / Лицензия
+## 🚀 Quick Start / Быстрый старт
 
-This project is released under the **LICENSE**.
+1. Установите MelonLoader (v0.7.3+).
+2. Поместите `UI_Hider.dll` в директорию `Mods/`.
+3. Нажимайте клавишу минус (`-`) в игре.
+
+---
+
+## 🔧 Tech Stack & Author
+
+* **Stack:** C#, MelonLoader, Unity IL2CPP Runtime.
+* **License:** [MIT License](LICENSE).
