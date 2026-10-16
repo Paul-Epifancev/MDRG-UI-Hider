@@ -29,16 +29,16 @@
 
 ## ✨ Key Features / Ключевые возможности
 
-* Моментальное переключение видимости элементов интерфейса.
-* Нулевое влияние на производительность (FPS/CPU).
+* Моментальное переключение видимости элементов интерфейса. Instant switching of external interface elements.
+* Нулевое влияние на производительность (FPS/CPU). Zero impact on performance (FPS/CPU).
 
 ---
 
 ## 🚀 Quick Start / Быстрый старт
 
-1. Установите MelonLoader (v0.7.3+).
-2. Поместите `UI_Hider.dll` в директорию `Mods/`.
-3. Нажимайте клавишу минус (`-`) в игре.
+1. Установите MelonLoader (v0.7.3+). Install MelonLoader (v0.7.3+).
+2. Поместите `UI_Hider.dll` в директорию `Mods/`. Place `UI_Hider.dll` in the `Mods/` directory.
+3. Нажимайте клавишу минус (`-`) в игре. Press the minus key (`-`) in the game.
 
 ---
 
